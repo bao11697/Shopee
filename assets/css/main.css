@@ -1317,6 +1317,33 @@ i.product-item__like--icon-fill {
     height: 20px;
 
 }
+
+.footer__action-list {
+    list-style: none;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+.footer__action-item {
+    padding: 0 25px;
+    border-right: 1px solid rgba(0,0,0,.09);
+    opacity: 0.5;
+}
+.footer__action-item:last-child {
+    border: none;
+}
+.footer__action-item:hover {
+    opacity: 1;
+}
+
+.footer__action-item-link {
+    text-decoration: none;
+    display: flex;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: var(--text-color);
+    font-weight: 400;
+}
 .footer__bottom {
     background-color: #f5f5f5;
     padding: 12px 0;
